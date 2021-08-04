@@ -1,3 +1,3 @@
-Personal Web Site of Yekta Yengi.
+My personal website.
 
-published on yyycoding.me
+Published on !-> yyycoding.me <-!

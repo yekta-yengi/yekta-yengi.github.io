@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg bg-transparent text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Seven Projects</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
@@ -59,7 +59,7 @@
         
         <hr class="md-0">
 
-        <!-- Education from resume example-->
+        <!-- Education-->
         <section id="education" class="page-section education" >
             <div class="container">
                 <h2 class="page-section-heading text-center text-uppercase text-black">Education</h2>
@@ -74,21 +74,21 @@
                         <div class="subheading px-4 mb-4 mt-2 ">Bachelor of Engineering</div>
                         <div class="px-4 mt-2 ">Computer Engineering</div>
                     </div>
-                    <div class="flex-shrink-0 me-5 text-decoration-underline"><span >February 2016 - June 2022</span></div>
+                    <div class="flex-shrink-0 me-5 text-decoration-underline"><span class="date1">February 2016 - June 2022</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1 ms-5">
-                        <h3 class="mb-3 text-decoration-underline">Ankara University (Dropped out)</h3>
+                        <h3 class="mb-3 text-decoration-underline">Ankara University</h3>
                         <div class="subheading px-4 mb-4 mt-2 ">Bachelor of Science</div>
                         <div class="px-4 mt-2 ">Biology</div>
                     </div>
-                    <div class="flex-shrink-0 me-5 text-decoration-underline"><span >September 2015 - June 2016</span></div>
+                    <div class="flex-shrink-0 me-5 text-decoration-underline "><span class="date1">September 2015 - June 2016</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1 ms-5">
                         <h3 class="mb-0 text-decoration-underline">Batikent Anatolian High School</h3>
                     </div>
-                    <div class="flex-shrink-0 me-5 text-decoration-underline"><span >September 2011 - June 2015</span></div>
+                    <div class="flex-shrink-0 me-5 text-decoration-underline"><span class="date1">September 2011 - June 2015</span></div>
                 </div>
             </div>
         </section>
@@ -109,19 +109,19 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ps-4 ms-auto me-5 border border-dark rounded">
+                    <div id="col-inf" class="col-lg-4 ps-4 ms-auto me-5 border border-dark rounded bg-about">
                         <p class="lead2 lead3">I'm Yekta, 4th grade Computer Engineering student, endavour on Web Development.</p>
                         <p class="lead2 lead3">Working with :
                             <ul class="lead">
                                 <li>HTML/CSS</li>
-                                <li>JavaScript      (beginner on React)</li>
-                                <li>PHP     (CodeInginter 4)</li>
-                                <li>Python      (on AI development)</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                                <li>Python</li>
                             </ul>
                         </p>
-                        <p class="lead">For 2 years, I participated in the BILMOK organization, which is organized once a year, attended by IT Endavours and Computer Engineering Students from all over the country to share and get knowledge.</p>
+                        <p class="lead lead3">For 2 years, I participated in the BILMOK organization, which is organized once a year, attended by IT Endavours and Computer Engineering Students from all over the country to share and get knowledge.</p>
                     </div>
-                    <div class="col-lg-4 ms-2 me-auto ps-4 border border-dark rounded">
+                    <div class="col-lg-4 me-auto ps-4 border border-dark rounded bg-about ">
                         <p class="lead2 lead3">I took part on Atılım Computer Club as an event organizer. We arranged meetings to let experienced engineers of the tech industry to share their knowledge and experience with young students.</p>
                         <p class="lead2 lead3">On 3rd year of school, I organized a game development team to develop 2D multiplayer game.</p>
                         <p class="lead2 lead3">My areas of interest include AI, philosophy, quantum physics, nanotechnology and electricity generation techniques.</p></div>
@@ -169,7 +169,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/portfolio.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -183,9 +183,9 @@
         <section class="page-section contact" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-comment"></i></div>
                     <div class="divider-custom-line"></div>
@@ -215,11 +215,13 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
+                            <!--
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <label for="phone">Phone number</label>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                </div>
+                            -->
                             <!-- Message input-->
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
@@ -258,11 +260,11 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer About Text-->
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5">
                         <h4 class="text-uppercase mb-4">Download my CV</h4>
                         <p class="lead mb-0">
-                            Check out<br>
-                            <a class="a2" href="mycv.pdf" Download>Yekta's CV</a>
+                            Coming soon<br>
+                            <!--<a class="a2" href="" Download>Yekta's CV</a>-->
                         </p>
                     </div>
                     
@@ -343,7 +345,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CMS with PHP</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -353,7 +355,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/php2.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">I have designed Content Management System with PHP from scratch to understand the basics of CMS. Now, I'm developing a blog using Code Igniter 4 framework.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -375,7 +377,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Websites</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -383,9 +385,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/portfolio.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">I have developed many single page portfolio and commercial web sites. Using Wordpress or bootstrap or from scratch.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
